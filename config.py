@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5103483960:AAHSWYnhSZVgXURrvjs8xhdIaXOgT-Gx31U")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5246466778:AAFkmhpCcrC1Rn1B-Nt8fatCieWDaIuDfSI")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "14130870"))
@@ -41,7 +41,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Halo {first}\n\n<b>Anda harus b
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
 #Set true if you want Disable your Channel Posts Share button
-if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'False':
+if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
     DISABLE_CHANNEL_BUTTON = True
 else:
     DISABLE_CHANNEL_BUTTON = False
